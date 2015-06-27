@@ -34,8 +34,18 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
 
+  '/newpage': {
+    view: 'newpage'
+  },  
+
+  'POST /contact': {
+    controller: 'contact',
+    action:'add',
+  },
+  
+  
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *

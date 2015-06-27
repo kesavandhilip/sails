@@ -1,0 +1,24 @@
+ #div-center {
+  top: 50%;
+  left: 50%;
+  width: 30em;
+  height: 18em;
+  margin-top: -9em;
+  margin-left: -15em;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  position: fixed;
+}
+.div_center {
+	text-align:center;
+	padding: 10px;
+}
+.input_space {
+	padding : 6px;
+}
+.lable_size {
+	font-size:18px;
+}
+.submit_button {
+	padding:6px;
+}
